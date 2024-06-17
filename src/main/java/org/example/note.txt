@@ -1,0 +1,20 @@
+exo1:HERITAGE DE BASE
+exo2:HERITAGE ET POLYMORPHISME
+
+atribut class-mere : protected
+
+
+Une carte contient 8 lieux , numeroter de (A,B,C,D,E,F,G,H).soit un marcher X marcher aleatoirement sur la carte .
+remarque :
+-Une carte est un ensemble de lieux interconnectés entre eux par des rues.
+plan:
+ il y a des reues qui relie le lieux:
+ (<->:on peut allez retour)
+
+   A<->B.<->C<->D<->E et (C<->F , D<->F) F<->G<->H<->F
+
+   a) quel est le nombre aleatoire pour que le marcheur X marcher aleatoirement pour venir che le lieu H mais
+   le point de depart ce le lieu C.
+    exemple: il part au C->D->E->D->F->C->F->G->H
+
+
